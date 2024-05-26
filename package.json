@@ -1,0 +1,21 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "description": "CLI-application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
